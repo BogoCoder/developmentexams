@@ -68,37 +68,36 @@ body {
     background-attachment: fixed;
   }
 
-  .urinicial{
-    grid-area: 2 / 2 / 4/ 3;
-    justify-self: center;
-  }
-
-  .urlogo{
-    width: 297px;
-    height: 256px;
-    align-self: start;
-}
-
 .mantekada{
-  grid-area: 4/ 2/ 6/ 3;
+  grid-area: 1/ 2/ 4/ 3;
   justify-self: center;
 }
 
 .mantelogo{
   padding: 20px 16px;
-  width: 1700px;
-  height: 500px;
+  width: 800px;
+  height: 180px;
+  align-self: start;
+}
+
+.conoce{
+  grid-area: 5/ 2/ 8/ 3;
+  justify-self: center;
+}
+
+.mas{
+  width: 800px;
+  height: 600px;
   align-self: start;
 }
 
 .descrip{
-  grid-area: 5/ 2/ 6/ 2;
+  grid-area: 8/ 2/ 9/ 2;
 }
 
 .par{
   font-size: 25px;
   color: white;
-  font-weight: bold;
 }
 
 p span {
@@ -107,30 +106,26 @@ p span {
 
 @media screen and (max-width: 950px){
 
-  .urlogo{
-    width: 150px;
-    height: 120px;
-    align-self: start;
-  }
-
   .mantekada{
-    grid-area: 4/ 2/ 6 / 3;
+    grid-area: 1/ 2/ 2/ 3;
     justify-self: center;
   }
   .mantelogo{
-    padding: 180px 10px;
-    width: 320px;
-    height: 90px;
+    padding: 10px 10px;
+    width: 400px;
+    height: 100px;
     align-self: start;
   }
 
-  .descrip{
-    grid-area: 5/ 2/ 8/ 2;
+  .mas{
+    width: 350px;
+    height: 280px;
+    align-self: start;
   }
-  
+
   .par{
-    font-size: 13px;;
+    font-size: 18px;
     color: white;
   }
-  
+
 }
