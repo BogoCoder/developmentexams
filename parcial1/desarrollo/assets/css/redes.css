@@ -101,12 +101,17 @@ body {
 .banner {
   grid-area: 4/ 2/ 8/ 3;
   size: 200px;
-  height: 200px;
+  height: 150px;
   border-bottom: solid gray;
   padding: 0%; 
   margin: 0%;
   line-height: 200px;
-  background-color:rgba(255, 255, 255, 0.3)
+  background-color:rgba(255, 255, 255, 0.4)
+}
+
+.sam1{
+  height: 130px;
+  width: 200px;
 }
 
 @media screen and (max-width: 950px){
@@ -130,6 +135,11 @@ body {
     font-size: 20px;
     color: white;
     font-weight: bolder;
+  }
+
+  .sam1{
+    height: 100px;
+    width: 50px;
   }
 
 }
