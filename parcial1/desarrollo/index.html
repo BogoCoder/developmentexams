@@ -4,10 +4,51 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>HOLA</title>
+    <title>Mantekada</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
-    <p>HOLA </p>
+    <div class="topnav" id="myTopnav">
+        <a href="#conocemas" class="active">Conoce más</a>
+        <a href="#fotos">Fotos</a>
+        <a href="#videos">Vídeos</a>
+        <a href="#conciertos">Conciertos</a>
+        <a href="#redes">Redes y contacto</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
+      </div>
+      
+      <!-- <div style="padding-left:16px">
+        <h2>Responsive Topnav Example</h2>
+        <p>Resize the browser window to see how it works.</p>
+      </div> -->
+      
+      <script>
+      function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+          x.className += " responsive";
+        } else {
+          x.className = "topnav";
+        }
+      }
+      </script>
+
+      <div class="container">
+          <div class = "urinicial">
+                <img class = "urlogo" src= "assets/img/logos/LOGO VERTICAL UR BLANCO.png" alt="URosario">  
+          </div>
+
+          <div class = "mantekada">
+              <img class = "mantelogo" src="assets/img/logos/mantedef.png" alt="Mantekada">
+          </div>
+
+          <div class = "descrip">
+              <p align = "center" class="par"><span>Ensamble de rock de la</span> <span>Universidad del Rosario.</span></p>
+          </div>
+      </div>
     
 </body>
 </html>
