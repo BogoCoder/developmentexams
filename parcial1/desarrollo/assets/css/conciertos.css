@@ -80,6 +80,14 @@ body {
   align-self: start;
 }
 
+.mantelogo:hover{
+  opacity: 0.5;
+  padding: 20px 16px;
+  width: 800px;
+  height: 180px;
+  align-self: start;
+}
+
 .sec{
   grid-area: 2/ 2/ 4/ 3;
 }
@@ -90,28 +98,36 @@ body {
   font-weight: bolder;
 }
 
-.foto1{
+.conoce{
   grid-area: 5/ 2/ 8/ 3;
   justify-self: center;
 }
 
-.img1{
-  padding: 10px 16px;
+.mas{
   width: 800px;
   height: 600px;
   align-self: start;
 }
 
-.foto2{
-  grid-area: 8/ 2/ 8/ 3;
-  justify-self: center;
-}
-
-.img2{
-  padding: 10px 16px;
+.mas:hover{
+  opacity: 0.5;
   width: 800px;
   height: 600px;
   align-self: start;
+}
+
+.descrip{
+  grid-area: 8/ 2/ 9/ 2;
+}
+
+.par{
+  font-size: 25px;
+  color: white;
+  font-weight: bold;
+}
+
+p span {
+  display:block;
 }
 
 @media screen and (max-width: 950px){
@@ -127,26 +143,16 @@ body {
     align-self: start;
   }
 
-  .sec{
-    grid-area: 1/ 2/ 6/ 3;
-  }  
-  
-  .subti{
-    font-size: 30px;
+  .mas{
+    width: 350px;
+    height: 280px;
+    align-self: start;
+  }
+
+  .par{
+    font-size: 18px;
     color: white;
-    font-weight: bolder;
-  }
-
-  .img1{
-    width: 350px;
-    height: 280px;
-    align-self: start;
-  }
-
-  .img2{
-    width: 350px;
-    height: 280px;
-    align-self: start;
+    font-weight: bold;
   }
 
 }

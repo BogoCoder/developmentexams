@@ -80,6 +80,13 @@ body {
   align-self: start;
 }
 
+.mantelogo:hover{
+  opacity: 0.5;
+  padding: 20px 16px;
+  width: 800px;
+  height: 180px;
+  align-self: start;
+}
 .sec{
   grid-area: 2/ 2/ 4/ 3;
 }
@@ -126,6 +133,10 @@ body {
     font-weight: bolder;
   }
 
+  .vid1{
+    grid-area: 5/ 2/ 9/ 3;
+    justify-self: center;
+  }
   .video{
     padding: 10px 16px;
     width: 350px;

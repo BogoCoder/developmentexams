@@ -80,6 +80,14 @@ body {
   align-self: start;
 }
 
+.mantelogo:hover{
+  opacity: 0.5;
+  padding: 20px 16px;
+  width: 800px;
+  height: 180px;
+  align-self: start;
+}
+
 .conoce{
   grid-area: 5/ 2/ 8/ 3;
   justify-self: center;

@@ -91,6 +91,14 @@ body {
   align-self: start;
 }
 
+.mantelogo:hover{
+  opacity: 0.5;
+  padding: 20px 16px;
+  width: 1700px;
+  height: 500px;
+  align-self: start;
+}
+
 .descrip{
   grid-area: 5/ 2/ 6/ 2;
 }
